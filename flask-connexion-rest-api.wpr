@@ -1,0 +1,10 @@
+#!wing
+#!version=7.0
+##################################################################
+# Wing project file                                              #
+##################################################################
+[project attributes]
+proj.file-type = 'shared'
+testing.auto-test-file-specs = (('glob',
+                                 'test_*'),)
+testing.test-framework = {None: ':internal pytest'}
