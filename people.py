@@ -84,6 +84,7 @@ def create(person):
             "fname": fname,
             "timestamp": get_timestamp(),
         }
+        # RS 09/22/2020 - Modified this line to return a person 
         return PEOPLE[lname], 201        
         
 
